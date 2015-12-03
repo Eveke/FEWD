@@ -1,0 +1,17 @@
+body {
+  background-color: #FFE;
+  font-family: helvetica;
+}
+
+h3 {
+  color: #887;
+}
+
+a {
+  color: #900;
+}
+
+img {
+   border: 4px solid #021a40;
+   border-radius: 4px;
+}

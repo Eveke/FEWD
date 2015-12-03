@@ -1,0 +1,20 @@
+body {
+  font-family: helvetica;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+a {
+  color: #416DD8;
+}
+
+li {
+  font-weight: bold;
+}
