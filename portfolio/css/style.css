@@ -22,11 +22,17 @@ h1 {
 h2 {
   font-size: 32px;
   font-size: 3.2rem;
+  font-weight: 400;
+  margin: 7.2rem 0 0 0;
+
 }
 
 h3 {
   font-size: 24px;
   font-size: 2.4rem;
+  font-weight: 100;
+  color: #8B8B8B;
+  margin: .8rem 0 0 0;
 }
 
 p {
@@ -71,6 +77,11 @@ nav, a {
   color: #fff;
 }
 
+.project a {
+  color: #3023AE;
+  font-weight: 400;
+}
+
 #summary {
   max-width: 48rem;
 }
@@ -100,4 +111,30 @@ nav, a {
 #pagination p {
   padding: 3.2rem;
   color: #FFF;
+}
+
+
+.project img {
+  text-align: center;
+  padding: 8.0rem;
+  width: 100%;
+
+}
+.preview img {
+  background-color: #FAFAFA;
+}
+
+.zebra img {
+  background-color: #F3F3F3;
+}
+
+
+.description {
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+  background-color: white;
+}
+
+.project .row  {
+  border-bottom: 1pt solid #FAFAFA;
 }
