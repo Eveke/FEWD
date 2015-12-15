@@ -1,0 +1,23 @@
+.notification {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.message.error {
+  color: yellow;
+}
+
+.message {
+  text-decoration: underline;
+  font-size: 36px;
+  font-style: italic;
+  color: blue;
+}
+
+.error {
+  color: red;
+}
+.pending {
+  color: red;
+}
