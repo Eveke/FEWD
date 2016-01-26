@@ -1,0 +1,138 @@
+assign a value to a variable (stores the value)
+
+to get the value, you must access the variable
+
+and generate new values using existing variables
+
+
+var age;  (declare)
+
+age = 21;  (assign)
+
+var name = "Jo"; (assign)
+
+name = "Amir";  (reassignment)
+
+
+var dateRange = Jan
+
+data types
+
+“string” text (stores textual information)
+int,float numbers (integers for whole numbers, floats can have decimal points, no quotes … addition, subtraction, multiplication, divide and modulus)
+boolean true or false
+
+
+if (age > 18) {
+	console.log(“you are an adult”);   
+}
+
+
+
+(if true this line will run) ( > logical operator)
+
+Operators
+
+Is this equal? ==
+Is this equal in value and type? ===
+
+
+if (condition is true) {
+	// Do cool stuff
+}
+
+else (condition is true) {
+	// Do other cool stuff
+}
+
+if (name === “GA” && password === “YellowPencil”) {
+	// Allow access to internet
+}
+
+
+
+JAVASCRIPT
+
+function functionName(arg1, arg2) {
+	//body of function
+}
+
+helloWorld();  //calls the function
+
+Use arguments to pass data into the function. Arguments can only be used inside a function.
+
+function addAndPrint(num1, num2) {
+var sum = num1 + num2;
+
+}
+
+addAndPrint(1, 2);
+addAndPrint(8, 2);
+
+
+$(‘.element-class’).click(function(event) {
+
+event.preventDefault();
+
+});
+
+
+
+<form>
+	<input type=“text” class=“text-input />
+	<input type=“submit” value=“submit” class=“submit-button” />
+</form>
+
+$(‘.submit-button’).click(function() {
+	var textValue = $(‘text-input).val();
+	console.log(textValue);
+});
+
+
+var total=0;
+
+	onSubmit
+		var newVal = inputVal
+		appendToList(newVal)
+		total = toal = newVal
+		totalElement.text(total)
+		clearInput()
+
+
+
+
+
+What is an array?
+
+Just another data type like floats, strings, booleans.
+Collection of other values.
+
+Three ways to declare an array (variables, functions, etc)
+
+var myArr=new Array();  //Array constructor//
+var myArr=[]  //literal notation//
+
+Arrays are filled with comma separated values. 
+
+var myArr=[‘Hello’, 54.3, true];
+
+Indexing of arrays 0, 1, 2, 3
+
+console.log(myArr[0]); //prints hello
+
+
+var myArr = [];
+
+myArr[0] = ‘stuff’;
+
+
+
+
+
+
+
+
+
+
+
+
