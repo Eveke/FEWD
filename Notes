@@ -127,6 +127,18 @@ myArr[0] = ‘stuff’;
 
 
 
+—————— “this” ————
+
+$(‘li’).click(function() {
+	$(this).addClass(‘clicked’);
+
+});
+
+
+$('h2').click(function() {
+  $(this).next().slideToggle();
+});
+
 
 
 
